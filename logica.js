@@ -50,7 +50,7 @@ while(entrada){
             }
         }
         else if(tipo.toLowerCase() == "wind"){
-            alert("A continuación, se le mostrará as tabla tipo " + tipo + " que dispone la empresa");
+            alert("A continuación, se le mostrará las tabla tipo " + tipo + " que dispone la empresa");
             let filtrado = productos.filter((producto) => producto.type.includes(tipo.toLowerCase()));
             let mensaje = generarMensajeTabla(filtrado);
             alert(mensaje);
